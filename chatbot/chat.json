@@ -1,0 +1,688 @@
+{
+  "dialogflow": [
+    {
+      "intent": "navigation",
+      "synonym": [
+        "Wie lege ich Objekte in der Navigation ab",
+        "Objekte in der Navigation hinzufügen",
+        "Wie kann ich Objekte in der Navigation platzieren",
+        "Dokument in den Favoriten hinzufügen",
+        "Wie kann ich Dokumente in den Favoriten ablegen",
+        "Wie lege ich Register in der Navigation ab",
+        "Wie platziere ich Gegenstände in der Navigation?",
+        "Wie kann ich Elemente in der Navigation platzieren?",
+        "Wie speichere ich Register in der Navigation ab?",
+        "Wo platziere ich Objekte in der Navigation?"
+      ],
+      "antwort": [
+        "<p>Sie können Objekte aus der Objektsuche, einer Trefferliste oder einem Ordnerfenster in den Inhaltsbereich einer Gruppe in der Navigation ziehen, um dort einen Objektverweis anzulegen.<p>"
+      ],
+      "context": [
+        "Navigation - Objekte ablegen"
+      ]
+    },
+    {
+      "intent": "navigation_usecase",
+      "synonym": [
+        "Wozu dient die Navigation",
+        "Was ist die Navigation",
+        "Was ist die Funktion der Navigation",
+        "Was ist die Aufgabe der Navigation",
+        "Wofür wird die Navigation verwendet?",
+        "Was bewirkt die Navigation?",
+        "Was ist der Zweck der Navigation?",
+        "Warum ist die Navigation wichtig?",
+        "Was wird durch Navigation ermöglicht?",
+        "Was ist die Rolle der Navigation?",
+        "Welchen Nutzen hat die Navigation?"
+      ],
+      "antwort": [
+        "<p>Die Navigation ist Ihr persönlicher Arbeitsbereich. Über die Navigation ist ein schneller Zugriff auf Volltext- und Mappen-Anfragen sowie auf Anfragen mit Variablen möglich. Auf die Navigation können Sie ebenfalls Objektverweise, gespeicherten Anfragen, Anfragemasken und Verknüpfungen zu externen Anwendungen legen und in Gruppen zusammenfassen.<p>"
+      ],
+      "context": [
+        "Navigation - Funktion"
+      ]
+    },
+    {
+      "intent": "kopieren_register",
+      "synonym": [
+        "Kopieren Register",
+        "Wie kann man ein Register kopieren?",
+        "Wie kann man ein Ordner kopieren?",
+        "Wie lässt sich ein Register duplizieren?",
+        "Register kopieren",
+        "Wie kann man das Kopieren eines Registers durchführen?",
+        "Wie geht man vor, um ein Register zu kopieren?",
+        "Gibt es eine Methode, um ein Register zu duplizieren?",
+        "Wie kann man ein Register vervielfältigen?",
+        "Welche Vorgehensweise ist beim Kopieren eines Registers notwendig?",
+        "Wie kann man eine Kopie eines Registers erstellen?",
+        "Was ist der Prozess zum Kopieren eines Registers?"
+      ],
+      "antwort": [
+        "<ol><li>Markieren Sie ein Register aus einer Trefferliste oder aus dem rechten Bereich eines Ordnerfensters.</li>  <li>Halten Sie die Taste <kbd>Strg</kbd> gedrückt und ziehen Sie das Register mit gedrückter Maustaste auf das Symbol eines Ordners oder Registers in einem Ordnerfenster oder einer Trefferliste.<br>Sie erhalten eine Sicherheitsabfrage.</li>      <li>Bestätigen Sie mit <strong>OK</strong>.</li>   </ol>   <p>Das Register wird kopiert. Enthält das Register Dokumente, dann erhalten diese einen weiteren Standort.</p>"
+      ],
+      "context": [
+        "Register - kopieren"
+      ]
+    },
+    {
+      "intent": "kopieren_dokument",
+      "synonym": [
+        "Kopieren Dokument",
+        "Wie kann ich ein Dokument kopieren?",
+        "Dokument kopieren",
+        "Wie kopiere ich ein Dokument?",
+        "Wie lässt sich ein Dokument duplizieren?",
+        "Wie dupliziere ich ein Dokument?",
+        "Wie kopiere ich Dateien in andere Register?",
+        "Wie kann man ein Dokument vervielfältigen?",
+        "Wie geht man vor, um ein Dokument zu kopieren?",
+        "Wie erstellt man eine Kopie eines Dokuments?",
+        "Was ist die Methode, um ein Dokument zu duplizieren?",
+        "Wie kann ich eine Kopie eines Dokuments machen?"
+      ],
+      "antwort": [
+        "    <ol>      <li>Markieren Sie ein Dokument aus einer Trefferliste, aus einem Ordnerfenster oder aus der Ablage.</li>       <li>Öffnen Sie das Kontextmenü mit einem Klick der rechten Maustaste.</li><li>Wählen Sie <strong>Kopie erstellen</strong>.<br>Die Indexdatenmaske wird geöffnet.</li><li>Verändern Sie die Indexdaten.</li><li>Bestätigen Sie die Änderungen mit <strong>OK</strong>.<br>        Eine Kopie des Dokuments wird im Modul oder im W-Programm geöffnet.</li><li>Bearbeiten Sie die Kopie.</li><li>Speichern Sie die Kopie.</li><li>Aktualisieren Sie die Dokumentenanzeige.</li></ol>"
+      ],
+      "context": [
+        "Dokument - kopieren"
+      ]
+    },
+    {
+      "intent": "kopieren_dokument_registeruebergreifend",
+      "synonym": [
+        "Kopieren Dokument schrankübergreifend",
+        "Wie kopiere ich Dateien in andere Register?",
+        "Gibt es eine Anleitung, wie ich Dateien in andere Ordner kopiere?",
+        "Welche Schritte sind erforderlich, um Dateien in ein anderes Verzeichnis zu kopieren?",
+        "Wie kann ich Dateien in einen anderen Ordner kopieren?",
+        "Welche Methoden gibt es, um Dateien in verschiedene Ordner zu kopieren?",
+        "Wie kann ich eine Datei duplizieren und in einem anderen Ordner speichern?",
+        "Was sind die Schritte zum Kopieren von Dateien in andere Ordner?",
+        "Welchen Prozess sollte ich befolgen, um Dateien in andere Ordner zu kopieren?",
+        "Kann ich eine Schritt-für-Schritt-Anleitung bekommen, um Dateien in andere Register zu kopieren?",
+        "Was ist der richtige Weg, Dateien in ein anderes Verzeichnis zu kopieren?",
+        "Können Sie mir zeigen, wie ich Dateien in verschiedene Ordner dupliziere?"
+      ],
+      "antwort": [
+        "    <p>Wenn Sie ein Dokument mit gedrückter rechter Maustaste in einen Ordner oder ein Register ziehen, können Sie mit der Funktion <strong>Kopie hier erstellen</strong> im Kontextmenü ebenfalls eine Kopie des Dokuments erstellen.</p>"
+      ]
+    },
+    {
+      "intent": "geloeschte_dokumente_wiederherstellen",
+      "synonym": [
+        "Wiederherstellen",
+        "Wie kann man gelöschte Dokumente wiederherstellen",
+        "Gibt es eine Möglichkeit, gelöschte Dokumente wiederherzustellen?",
+        "Welche Schritte sind nötig, um ein gelöschtes Dokument wiederherzustellen?",
+        "Können Sie mir sagen, wie man ein gelöschtes Dokument zurückholt?",
+        "Welche Methoden gibt es zur Wiederherstellung gelöschter Dokumente?",
+        "Wie kann ich ein gelöschtes Dokument retten?",
+        "Wie stelle ich ein versehentlich gelöschtes Dokument wieder her?",
+        "Gibt es eine Anleitung zur Wiederherstellung gelöschter Dokumente?",
+        "Können gelöschte Dokumente wiederhergestellt werden und wenn ja, wie?",
+        "Wie kann ich ein kürzlich gelöschtes Dokument wiederfinden?",
+        "Wie gehe ich vor, um ein gelöschtes Dokument zu erholen?"
+      ],
+      "antwort": [
+        "<p> Gehen Sie auf den Reiter Ansicht. Wählen Sie den Papierkorb aus. Markieren Sie das Dokument und klicken Sie auf wiederherstellen</p>"
+      ]
+    },
+    {
+      "intent": "verschieben_register",
+      "synonym": [
+        "Register verschieben",
+        "Wie kann ich Register verschieben?",
+        "Wie kann ich ein Register verschieben?",
+        "Wie verschiebe ich ein Register?",
+        "Wie kann ich ein Register versetzen?",
+        "Wie kann ich ein Register an einen anderen Ort versetzen?",
+        "Wie führt man das Verschieben eines Registers durch?",
+        "Wie versetze ich ein Register an einen anderen Platz?",
+        "Wie bewege ich ein Register von einem Ort zum anderen?",
+        "Gibt es eine Methode, um ein Register zu verlagern?",
+        "Was ist der Prozess zum Verschieben eines Registers?"
+      ],
+      "antwort": [
+        "<ol><li>Markieren Sie ein Register aus einer Trefferliste oder aus dem rechten Bereich eines Ordnerfensters.</li>    <li>Ziehen Sie das Register mit gedrückter Maustaste auf das Symbol eines Ordners oder Registers in einem Ordnerfenster oder einer Trefferliste.<br>      Sie erhalten eine Sicherheitsabfrage.</li>    <li>Bestätigen Sie mit <strong>OK</strong>.</li>  </ol>  <p>Das Register wird mit seinem Inhalt verschoben.</p>"
+      ],
+      "context": [
+        "Register - verschieben"
+      ]
+    },
+    {
+      "intent": "verschieben_dokument",
+      "synonym": [
+        "Wie verschiebe ich Dateien in andere Register?",
+        "Verschieben von Dokumenten",
+        "Wie kann ich Dateien in andere Register übertragen?",
+        "Wie kann ich Dateien in andere Register bewegen?",
+        "Wie kann ich Dokumente in andere Register verschieben?",
+        "Wie verschiebe ich Dateien in andere Register?",
+        "Was ist der Prozess, um Dateien in andere Register zu verschieben?",
+        "Welche Schritte sind notwendig, um Dateien in andere Register zu verschieben?",
+        "Wie führt man das Verschieben von Dateien in andere Register durch?",
+        "Wie kann ich Dateien zu einem anderen Register transferieren?",
+        "Wie verschiebe ich Dokumente zu einem anderen Register?"
+      ],
+      "antwort": [
+        "<ol>  <li>Markieren Sie ein Dokument aus einem Ordnerfenster, einer Mappe oder aus der Ablage.</li><li>Öffnen Sie als Ziel ein Ordnerfenster.</li>    <li>Ziehen Sie das markierte Dokument mit gedrückter Maustaste in das Ziel.</li>    <li>Ziehen Sie das Dokument in den Ordner eines anderen Schranks, wählen Sie einen Dokumenttyp und indexieren das Dokument über die typspezifische Indexdatenmaske.</li>  </ol>  <p>Das Dokument wird verschoben.</p>"
+      ],
+      "context": [
+        "Dokument - verschieben"
+      ]
+    },
+    {
+      "intent": "verschieben_dokument_schrankuebergreifend",
+      "synonym": [
+        "Möglichkeit Dokument schrankübergreifend zu verschieben",
+        "Können Dokumente in andere Schrank verschoben werden",
+        "Schrankuebergreifend verschieben",
+        "Können Unterlagen in einen anderen Aktenschrank verschoben werden?",
+        "Können Unterlagen in andere Schränke verlegt werden?",
+        "Kann ich Dokumente zwischen Schränken verschieben?",
+        "Ist es möglich, Unterlagen in einen anderen Schrank zu verlegen?",
+        "Ist das Verschieben von Dokumenten zwischen verschiedenen Schränken möglich?",
+        "Gibt es eine Methode, um Unterlagen schrankübergreifend zu verschieben?",
+        "Können Dokumente von einem Aktenschrank in einen anderen verschoben werden?",
+        "Kann man Unterlagen zwischen Aktenschränken verlegen?"
+      ],
+      "antwort": [
+        "<p>Ein Dokument kann in einen anderen Schrank verschoben werden. Wenn es mehrere Dokumenttypen gibt, denen das Dokument zugeordnet werden kann, müssen Sie einen Dokumenttyp auswählen. Wenn es Indexdatenfelder mit gleichen internen Namen gibt, werden die Daten aus diesen Feldern übernommen. Daten von Feldern, die nicht anderen Feldern mit gleichen internen Namen zugeordnet werden können, gehen verloren und können nicht wiederhergestellt werden.</p>      <p>Bitte beachten Sie, dass das Verschieben eines Dokuments in einen anderen Schrank bestimmte Konsequenzen haben kann, insbesondere in Bezug auf die Indexierung und die Verfügbarkeit des Dokuments in verschiedenen Kontexten.</p>"
+      ],
+      "context": [
+        "Dokument - verschieben - schrankübergreifend"
+      ]
+    },
+    {
+      "intent": "datenloeschen_akte",
+      "synonym": [
+        "Löschen Akte",
+        "Wie kann ich eine Akte löschen",
+        "Akten löschen",
+        "Wie kann ich einen Ordner löschen",
+        "Wie kann ich eine Akte entfernen?",
+        "Wie kann ich einen Verzeichnisordner entfernen?",
+        "Wie kann ich eine Akte vernichten?",
+        "Wie führt man das Löschen einer Akte durch?",
+        "Welche Vorgehensweise ist beim Löschen einer Akte notwendig?",
+        "Was muss ich tun, um einen Ordner zu löschen?",
+        "Was ist der Prozess zum Löschen einer Akte?",
+        "Wie kann ich einen Ordner von meinem System entfernen?"
+      ],
+      "antwort": [
+        "<ol>    <li>Starten Sie über die Objektsuche eine Anfrage nach Ordnern oder Registern.<br>      Das Ergebnisfenster mit der Trefferliste wird geöffnet.</li>    <li>Markieren Sie ein oder mehrere Objekte.</li>    <li>Klicken Sie auf die Schaltfläche <strong>Löschen</strong> der drücken Sie die Taste <strong>ENTF</strong>.<br>      Sie erhalten eine Sicherheitsabfrage (<a href='https://help.optimal-systems.com/enaio/v1010/user/client/de/01_einstieg/voreinstellungen.htm#Bereich-Bestaetigen'>siehe Bereich 'Bestätigen'</a>).</li>    <li>Bestätigen Sie mit <strong>OK</strong>./li>  </ol>  <p>Das oder die Objekte werden gelöscht.</p>"
+      ],
+      "context": [
+        "Akten - löschen"
+      ]
+    },
+    {
+      "intent": "datenloeschen_register",
+      "synonym": [
+        "löschen Register",
+        "wie kann man Register löschen",
+        "Register löschen",
+        "ich möchte ein Register löschen",
+        "wie man Register löscht",
+        "Anleitung zum Löschen eines Registers",
+        "Wie geht man vor, um ein Register zu löschen?",
+        "Wie kann ich ein Register entfernen?",
+        "Wie kann ich ein Register vernichten?",
+        "Was muss ich tun, um ein Register zu löschen?",
+        "Wie lässt sich ein Register entfernen?",
+        "Welche Vorgehensweise ist beim Löschen eines Registers notwendig?"
+      ],
+      "antwort": [
+        "<p>Schritte, mit denen Sie Ordner und Register l&ouml;schen:</p>\n<ul>\n<li>Starten Sie &uuml;ber die Objektsuche eine Anfrage nach Ordnern oder Registern.</li>\n</ul>\n<p>Das Ergebnisfenster mit der Trefferliste wird ge&ouml;ffnet.</p>\n<ul>\n<li>Markieren Sie ein oder mehrere Objekte.</li>\n<li>Klicken Sie auf die Schaltfl&auml;che L&ouml;schen oder dr&uuml;cken Sie die Taste ENTF.</li>\n</ul>\n<p>Sie erhalten eine Sicherheitsabfrage (siehe [<a href=\"https://help.optimal-systems.com/enaio/v1010/user/client/de/01_einstieg/voreinstellungen.htm#Bereich-Bestaetigen\" target=\"_blank\" rel=\"noopener\">Bereich 'Best&auml;tigen'</a>]).</p>\n<ul>\n<li>Best&auml;tigen Sie mit OK.</li>\n</ul>\n<p>Das oder die Objekte werden gel&ouml;scht.</p>"
+      ],
+      "context": [
+        "Register - löschen"
+      ]
+    },
+    {
+      "intent": "datenloeschen_dokument",
+      "synonym": [
+        "Löschen Dokument",
+        "Wie können Dokumente gelöscht werden",
+        "Wie können Dateien gelöscht werden",
+        "Dokumente löschen",
+        "Wie können Dateien entfernt werden",
+        "Entfernung von Dateien",
+        "Wie geht man vor, um Dokumente zu löschen?",
+        "Was ist der Prozess zum Löschen von Dokumenten?",
+        "Wie kann ich Dokumente aus meinem System entfernen?",
+        "Wie kann ich das Entfernen von Dateien durchführen?",
+        "Wie kann ich Dateien vernichten?",
+        "Was muss ich tun, um Dokumente zu löschen?"
+      ],
+      "antwort": [
+        "<ol>     <li>Markieren Sie Dokumente aus einer Trefferliste, aus einem Ordnerfenster oder aus der Ablage.</li>    <li>Klicken Sie auf die Schaltfläche <strong>Löschen</strong>.<br>      Sie erhalten eine Sicherheitsabfrage. Wenn Sie das Dokument an einem Standort löschen, wählen Sie, ob Sie das Dokument vollständig löschen oder ggf. nur vom aktuellen Standort entfernen möchten.</li>    <li>Bestätigen Sie die Sicherheitsabfrage mit <strong>OK</strong>.</li>  </ol>  <p>Die Dokumente werden gelöscht, die Anzeige wird aktualisiert.</p>"
+      ],
+      "context": [
+        "Dokument - löschen"
+      ]
+    },
+    {
+      "intent": "versand_mails",
+      "synonym": [
+        "Wie funktioniert die Mail Versand",
+        "Wie versende ich eine PDF-Version eines Word Dokuments?",
+        "Wie versende ich einen Verweis",
+        "Wie kann ich einen Verweis verschicken",
+        "Mail senden",
+        "Wie kann ich eine E-Mail senden?",
+        "Wie sende ich ein PDF-Dokument per E-Mail?",
+        "Wie verschicke ich eine E-Mail mit einem Verweis?",
+        "Wie kann ich einen Link per E-Mail versenden?",
+        "Wie kann ich einen Verweis per E-Mail teilen?",
+        "Wie kann ich ein Word-Dokument als PDF per E-Mail senden?"
+      ],
+      "antwort": [
+        "<ol>      <li>Öffnen Sie eine Trefferliste oder ein Ordnerfenster.</li>      <li>Markieren Sie ein oder mehrere Objekte und öffnen Sie das Kontextmenü mit einem Klick auf die rechte Maustaste.</li>      <li>Klicken Sie auf die Schaltfläche <strong>E-Mail</strong> und wählen Sie eine der folgenden Optionen aus der Liste:        <ul><li><strong>Verweis:</strong> Die markierten Objekte werden als interner Verweis angehängt (<a href='https://help.optimal-systems.com/enaio/v1010/user/client/de/04_bearbeiten/dokumente-verwalten/interne-verweise.htm'>siehe Interne Verweise</a>).</li>          <li><strong>Inhalt:</strong> Die markierten Objekte werden im originalen Dateiformat angehängt.</li>          <li><strong>Inhalt (PDF):</strong> Die markierten Objekte werden als PDF-Dateien angehängt. Kann ein Objekt nicht nach PDF formatiert werden, wird die Originaldatei angehängt.</li>          <li><strong>Inhalt (Zip):</strong> Die markierten Objekte werden komprimiert und die komprimierte ZIP-Datei wird angehängt.</li>          <li><strong>Inhalt (Zip geschützt):</strong> Sie geben zusätzlich ein Passwort für den Schutz der ZIP-Datei an. Der Empfänger benötigt dieses Passwort zum Öffnen der ZIP-Datei.</li>        </ul>      </li>      <li>Tragen Sie im E-Mail-Fenster einen Adressaten und einen Betreff ein.</li>      <li>Versenden Sie die E-Mail.</li>    </ol>"
+      ],
+      "context": [
+        "Mail - versenden"
+      ]
+    },
+    {
+      "intent": "anlegung_document",
+      "synonym": [
+        "Anlage Dokument",
+        "Wie kann ich ein neues Dokument anlegen",
+        "Neuanlage von Dokumenten",
+        "Wie kann ich ein neues Schriftstück erstellen",
+        "Wie kann ich eine neue Datei erstellen?",
+        "Wie kann ich die Dokumente vorlagen verwenden",
+        "Anlage von Dokumente",
+        "Wie kann eine Vorlage auswählen? ",
+        "Wie erstelle ich ein neues Dokument?",
+        "Wie lege ich eine neue Datei an?",
+        "Wie kann ich ein neues Dokument auf Basis einer Vorlage erstellen?",
+        "Wie kann ich eine Vorlage für ein neues Dokument verwenden?"
+      ],
+      "antwort": [
+        "<p>Die Anlage von Dokumenten erfolgt in mehren Schritten: <ol>    <li>Öffnen Sie einen Ordner oder ein Register.</li>    <li>Klicken Sie in der Menüband-Registerkarte <strong>Start</strong> oder in der Menüband-Registerkarte <strong>Ordner</strong> auf den Pfeil zur Schaltfläche <strong>Objekt</strong> oder wählen Sie <strong>Neu</strong> aus dem Kontextmenü.</li>    <li>Wählen Sie einen Dokumenttyp aus der Liste aus.</li>    <li>Füllen Sie die Indexdatenmaske aus.</li>    <li>Klicken Sie auf die Schaltfläche <strong>Speichern</strong>.</li>    <li>Wählen Sie auf der Maske eine der folgenden Optionen aus:      <ul>        <li><strong>Neu erstellen:</strong> Mit dieser Option können Sie Vorlagen, die von enaio® verwaltet werden, nutzen. Die Vorlagen werden von Ihrem Administrator zur Verfügung gestellt.</li>        <li><strong>Aus Datei kopieren:</strong> Mit dieser Option können Sie eine Datei aus Ihrem Dateiablagesystem in das enaio®-Ordnungssystem kopieren.</li>        <li><strong>Aus Datei verschieben:</strong> Mit dieser Option können Sie eine Datei aus Ihrem Dateiablagesystem in das enaio®-Ordnungssystem verschieben.</li>      </ul>    </li>  </ol>"
+      ],
+      "context": [
+        "Dokument - anlegen"
+      ]
+    },
+    {
+      "intent": "anlegung_akte_menu",
+      "synonym": [
+        "Wie kann ich eine Akte aus dem Menüband anlegen",
+        "Anlage von Akten aus dem Menü",
+        "Erstellung von Ordner über das Menüband",
+        "Wie kann ich ein neuen Ordner über das Menüband erstellen?",
+        "Wie kann ich über das Menüband einen neuen Verzeichnisordner erstellen?",
+        "Können Sie mir zeigen, wie ich eine Akte über das Menüband erstelle?",
+        "Wie kann ich eine Akte über das Menüband hinzufügen?",
+        "Gibt es eine Möglichkeit, eine Akte über das Menüband zu erstellen?",
+        "Wie erstelle ich einen neuen Ordner aus dem Menüband heraus?",
+        "Wie kann ich eine neue Akte über das Menüband anlegen?",
+        "Kannst du mir den Prozess erklären, um eine Akte über das Menüband zu erstellen?"
+      ],
+      "antwort": [
+        "    <ol>    <li value='1'>      <p>        Klicken Sie auf der Menüband-Registerkarte        <strong>Start</strong> auf den Pfeil zur Schaltfläche        <img          src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/Ordner%20anlegen_1_24x24.png'          title='Objekt erstellen'          alt='Objekt erstellen - Symbol'          style='width: 24; height: 24'    /><strong> Objekt</strong>.      </p>      <p>        Das Menü mit allen eingerichteten Objekttypen wird geöffnet.      </p>    </li>    <li value='2'>      <p>        Klicken Sie im Menü auf den Eintrag        <strong>Neuer Ordner</strong>.      </p>      <p >        Das Submenü mit allen eingerichteten Ordnertypen wird geöffnet.      </p>      <p>Der zuletzt gewählte Ordnertyp ist in der Liste fett gesetzt.</p>    </li>    <li value='3'>      <p>Wählen Sie einen Ordnertyp aus der Liste.</p>      <p >Die Indexdatenmaske wird geöffnet.</p>    </li>    <li value='4'>     <p>Füllen Sie die Indexdatenmaske aus.</p>    </li>    <li value='5'>      <p>        Wählen Sie, ob der Ordner nach dem Speichern geöffnet werden soll. Die        gewählte Einstellung bleibt für die nächste Neuanlage eines Ordners        voreingestellt.      </p>   </li>    <li value='6'>     <p>        Klicken Sie auf die Schaltfläche <strong>Speichern</strong>.      </p>    </li>  </ol>"
+      ],
+      "context": [
+        "Akte - anlegen - Menü"
+      ]
+    },
+    {
+      "intent": "anlegung_akte_objektsuche",
+      "synonym": [
+        "Anlage Akte",
+        "Wie kann ich eine Akte aus dem Objektsuche anlegen",
+        "Anlage von Akten aus dem Objektsuche",
+        "Erstellung von Ordner über das Objektsuche",
+        "Wie kann ich ein neuen Ordner über das Objektsuche erstellen?",
+        "Wie kann ich über das Objektsuche einen neuen Verzeichnisordner erstellen?",
+        "Wie erstelle ich eine Akte über das Menüband?",
+        "Wie lege ich eine Akte mithilfe des Menübands an?",
+        "Wie kann ich einen Ordner vom Menüband aus erstellen?",
+        "Wie erstelle ich einen neuen Ordner über das Menüband?",
+        "Wie erstelle ich eine Akte mithilfe des Menüs?",
+        "Welche Schritte sind notwendig, um eine Akte über das Menüband zu erstellen?"
+      ],
+      "antwort": [
+        "    <ol>   <li value='1'>        <p>Öffnen Sie den Bereich <strong>Objektsuche</strong> mit einem Klick auf das <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/ic_objektsuche.png' class='e_icon' title='Arbeitsbereich Objektsuche' alt='Arbeitsbereich Objektsuche - Symbol'> <strong>Objektsuche</strong>-Symbol in der Menüband-Registerkarte <strong>Ansicht</strong> &gt; Menüband-Gruppe <strong>Bereiche</strong>.</p>    </li>    <li value='2'>        <p>Markieren Sie im Bereich <strong>Objektsuche</strong> das gewünschte Ordner-Symbol und öffnen Sie mit der rechten Maustaste das Kontextmenü.</p>    </li>    <li value='3'>        <p>Klicken Sie im Kontextmenü auf den Eintrag <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/Ordner%20anlegen_1_24x24.png' class='e_icon' title='Objekt erstellen' alt='Objekt erstellen - Symbol' style='width: 24;height: 24;'><strong>Neu</strong>.</p>        <p class='e_result'> Die Indexdatenmaske wird geöffnet. </p>    </li>    <li value='4'>        <p>Füllen Sie die Indexdatenmaske aus.</p>    </li>    <li value='5'>        <p>Wählen Sie, ob der Ordner nach dem Speichern geöffnet werden soll. Die gewählte Einstellung bleibt für die nächste Neuanlage eines Ordners voreingestellt.</p>    </li>    <li value='6'>        <p>Klicken Sie auf die Schaltfläche <strong>Speichern</strong>.</p>    </li></ol>"
+      ],
+      "context": [
+        "Akte - anlegen - Objektsuche"
+      ]
+    },
+    {
+      "intent": "anlegung_register",
+      "synonym": [
+        "Anlage Register",
+        "Wie können Register angelegt werden",
+        "Wie kann ich neue Register erstellen",
+        "Anlegung Register",
+        "Wie kann ich ein Register hinzufügen",
+        "Wie kann ich ein neues Register einfügen?",
+        "Wie erstelle ich ein neues Register?",
+        "Wie geht man vor, um ein Register anzulegen?",
+        "Welche Schritte sind notwendig, um ein Register zu erstellen?",
+        "Wie füge ich ein Register hinzu?",
+        "Wie kann ich ein Register erstellen und hinzufügen?",
+        "Wie lege ich ein neues Register an?"
+      ],
+      "antwort": [
+        "    <ol>    <li value='1'>        <p>Starten Sie über die <strong>Objektsuche</strong> eine Ordneranfrage.</p>    </li>    <li value='2'>        <p>Öffnen Sie aus der Trefferliste einen Ordner.</p>        <p>Öffnen Sie ein Register, wenn Sie das neue Register in ein anderes Register legen wollen.</p>    </li>    <li value='3'>        <p>Klicken Sie auf der Menüband-Registerkarte <strong>Ordner</strong> in der Menüband-Gruppe <strong>Neu</strong> auf die Schaltfläche <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/Ordner%20anlegen_1_24x24.png' class='e_icon' title='Objekt erstellen' alt='Objekt erstellen - Symbol' style='width: 24;height: 24;'><strong> Objekt</strong>. Alternativ können Sie auch die Funktion <strong>Neu</strong> im Kontextmenü wählen.</p>        <p> Das Menü mit den eingerichteten Register- und Dokumenttypen wird geöffnet.</p>    </li>    <li value='4'>        <p>Wählen Sie  den Registertyp aus.</p>        <p>Der zuletzt gewählte Register- oder Dokumententyp ist in der Liste fett gesetzt. </p>        <p> Die Indexdatenmaske wird geöffnet.</p>    </li>    <li value='5'>        <p>Füllen Sie die Indexdatenmaske aus.</p>    </li>    <li value='6'>        <p>Klicken Sie auf die Schaltfläche <strong>Speichern</strong>.</p>    </li></ol>"
+      ],
+      "context": [
+        "Register - anlegen"
+      ]
+    },
+    {
+      "intent": "import_document",
+      "synonym": [
+        "Wie kann ich ein Dokument importieren",
+        "Wie kann ich ein Dokument in enaio hinzufügen",
+        "Wie kann ich ein Dokument in enaio hinzufügen",
+        "Wie kann ich ein Dokument ergänzen",
+        "Wie füge ich ein Dokument zu enaio hinzu?",
+        "Wie kann ich ein Dokument in enaio importieren?",
+        "Wie lade ich ein Dokument in enaio hoch?",
+        "Wie kann ich ein neues Dokument zu enaio hinzufügen?",
+        "Wie kann ich ein Dokument in enaio einbringen?",
+        "Wie kann ich ein Dokument in enaio laden?",
+        "Wie kann ich ein Dokument in enaio hineinbringen?"
+      ],
+      "antwort": [
+        "    <p>Sie können Dateien per Drag &amp; Drop in enaio® übernehmen. Dabei ordnen Sie die Datei einem bestimmten Dokumenttyp zu und indexieren das Dokument über die typspezifische Indexdatenmaske. Falls eine Datei aufgrund ihres Dateiformats nicht übernommen werden kann, erhalten Sie einen entsprechenden Hinweis.</p>    <p>Alternativ zur Drag &amp; Drop-Methode haben Sie auch die Möglichkeit, Dateien per Copy &amp; Paste zu übernehmen. Kopieren Sie eine Datei im Windows Explorer mit <kbd>Strg + C</kbd> und öffnen Sie dann den gewünschten Standort in enaio®. Fügen Sie die Datei dort mit <kbd>Strg + V</kbd> ein.</p>"
+      ],
+      "context": [
+        "Dokument - importieren"
+      ]
+    },
+    {
+      "intent": "scan_document_kontextmenue",
+      "synonym": [
+        "Wie Scanne ich direkt über den Client?",
+        "Wie kann ich direkt über den Client scannen?",
+        "Wie führe ich einen Scan direkt über den Client durch?",
+        "Wie kann ich einen Scanvorgang direkt über den Client starten?",
+        "Wie scanne ich ein Dokument direkt über den Clienten?",
+        "Wie wird das Scannen direkt über den Client ausgeführt?",
+        "Wie scanne ich Dokumente direkt über den Client?",
+        "Wie kann ich direkt über den Client ein Dokument scannen?",
+        "Wie führe ich einen Direktscan über den Client durch?",
+        "Wie mache ich einen Scan direkt über den Client?"
+      ],
+      "antwort": [
+        "    <h3>Dokument Scan Anleitung:</h3>       <ol><li>Öffnen Sie den Ordner oder das Register, in dem Sie das Dokument ablegen möchten.</li>          <p>Falls Sie sich unsicher sind, wo das Dokument abgelegt werden soll, öffnen Sie zunächst die Ablage. Sie              können das Dokument später in einen bestimmten Ordner oder Register verschieben.</p>          <li>Klicken Sie in der Menüband-Registerkarte 'Start' oder 'Ordner' auf den Pfeil zur Schaltfläche <img                  src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/Ordner%20anlegen_1_24x24.png'                  class='e_icon' alt='Objekt erstellen - Symbol' style='width: 24;height: 24;' title='Objekt erstellen'>              'Objekt' oder wählen Sie 'Neu' aus dem Kontextmenü.</li>          <li>Das Menü mit den für den gewählten Standort zulässigen Register- und Dokumenttypen wird geöffnet.</li>          <li>Wählen Sie einen Dokumenttyp aus der Liste aus. Der zuletzt ausgewählte Register- oder Dokumenttyp wird fett              hervorgehoben.</li>          <li>Nun öffnet sich die Indexdatenmaske. Füllen Sie diese aus.</li>          <li>Bilddokumenttypen können in Mehrfachfeldern seitenweise indexiert werden.</li>          <li>Klicken Sie auf die Schaltfläche 'Speichern'.</li>          <li>Abhängig vom gewählten Objekttyp wird eines der Bildmodule mit einem leeren Fenster geöffnet.</li>          <li>In der Menüleiste von enaio® client wird die Registerkarte 'Bildbearbeitung' angezeigt.</li>          <li>Bevor Sie mit dem Scannen beginnen, stellen Sie die Scanparameter und die Optionen für das Einfügen und              Löschen der Scans ein. Je nachdem, ob Sie an Ihrem Arbeitsplatz eine Twain-Schnittstelle oder Kofax              verwenden, variieren die Arbeitsschritte.</li>          <li>Nachdem Sie die Scanparameter und Optionen eingestellt haben, können Sie mit dem Scannen beginnen. Sie haben              die Wahl zwischen 'Scannen mit Kofax' und 'Scannen mit Twain'.</li>          <li>Nach dem Scannen werden die gescannten Dokumente im zuvor leeren Fenster angezeigt. Sie können die Scans              überprüfen und gegebenenfalls korrigieren.</li>          <li>Abschließend klicken Sie auf das Menüband 'Bildbearbeitung' - 'Bilddokument ablegen'. Das neu erstellte              Bilddokument wird nun im geöffneten Ordner oder Register abgelegt.</li>      </ol>"
+      ],
+      "context": [
+        "Dokument - scannen - Kontextmenü"
+      ]
+    },
+    {
+      "intent": "sammelaenderungen_durchfuehren",
+      "synonym": [
+        "Wie führe ich Sammeländerungen durch?",
+        "Wie funktioniert die Sammeländerung?",
+        "Was ist der Prozess der Sammeländerungen",
+        "Erkläre mir, wie ich Sammeländerungen durchführen kann",
+        "Wie kann ich mehrere Änderungen auf einmal durchführen?",
+        "Wie kann ich Sammeländerungen in meiner Arbeit durchführen?",
+        "Welche Schritte sind notwendig, um Sammeländerungen durchzuführen?",
+        "Wie kann ich Sammeländerungen in meinen Dokumenten vornehmen?",
+        "Wie geht man vor, um Sammeländerungen zu machen?",
+        "Wie kann ich Sammeländerungen effektiv durchführen?"
+      ],
+      "antwort": [
+        "    <p>Für diese Sammeländerungen benötigen Sie die Systemrolle Client: Sammeländerungen durchführen. </p>      <p>Sie können die Indexdaten mehrerer Dokumente eines Typs gleichzeitig ändern. Markieren Sie die Dokumente und          öffnen Sie die Indexdaten, wird eine leere Indexdatenmaske angezeigt. Bei Feldern, die gleich indexiert sind,          werden die Indexdaten angezeigt. </p>"
+      ]
+    },
+    {
+      "intent": "wiedervorlagen_durchfuehren",
+      "synonym": [
+        "Wie erstelle ich eine Wiedervorlage?",
+        "Erklären Sie mir den Prozess der Wiedervorlagen?",
+        "Wie kann ich eine Wiedervorlage für Dokumente erstellen?",
+        "Wie richte ich Wiedervorlagen?",
+        "Wie richte ich eine Wiedervorlage für meine Dokumente ein?",
+        "Wie kann ich den Prozess der Wiedervorlagen durchführen?",
+        "Wie lege ich eine Wiedervorlage an?",
+        "Wie erstelle ich eine Wiedervorlage für meine Dokumente?",
+        "Wie funktioniert das Einrichten von Wiedervorlagen?",
+        "Wie erstelle ich eine Wiedervorlage für meine Unterlagen?",
+        "Wie richte ich eine Wiedervorlage für meine Akten ein?"
+      ],
+      "antwort": [
+        "<div><ol><li><p>Markieren Sie Dokumente, Mappen, Register oder Ordner.</p></li><li><p>Klicken Sie in der Menüband-Registerkarte auf die Schaltfläche 'Wiedervorlegen' oder wählen Sie die Funktion aus dem Kontextmenü.</p></li><li><p>Sie können markierte Objekte auch in den Wiedervorlagebereich ziehen. Der Konfigurationsdialog wird geöffnet.</p><p><img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/screenshots/Wiedervorlagen_1_thumb_527_0.png' style='visibility: visible;height: auto;max-width: 350px;width: 300px;' alt='Wiedervorlagen-Maske' title='Wiedervorlagen-Maske'></p></li><li><p>Im Bereich 'Erinnern' wählen Sie das Datum über einen Kalender oder geben einen Zeitraum in Tagen, Wochen oder Monaten an. Über eine Liste wählen Sie die Uhrzeit für die Wiedervorlage.</p><p>Im Feld 'Anmerkung' tragen Sie optional eine Anmerkung ein. Anmerkungen werden im Eingangskorb und im Betreff einer E-Mail angezeigt.</p><p>Im Bereich 'Wiedervorlage für' wählen Sie sich 'selbst' als Adressat oder 'andere' Benutzer bzw. Gruppen aus der Liste.</p><p>Sie können ebenfalls eine E-Mail-Adresse für eine Benachrichtigung angeben.</p><p>Markieren Sie die Option 'Bestätigung durch Passwort', muss der Adressat für die Kennzeichnung als 'bearbeitet' sein Passwort eingeben.</p><p>Die Bestätigung wird in der Historie von Objekten protokolliert.</p></li><li><p>Bestätigen Sie die Einstellungen mit 'Speichern'.</p></li></ol><p>Einzelne 'Wiedervorlagen' an sich selbst werden Ihnen im Korb 'Wiedervorlage' angezeigt. Über die Optionen in der Symbolleiste des Eingangskorbs können Sie die Daten ändern oder löschen. Eine Wiedervorlage mehrerer Objekte an sich selbst wird nicht angezeigt.</p></div>"
+      ]
+    },
+    {
+      "intent": "abonnieren_von_objekten_usecase",
+      "synonym": [
+        "Wo zu dient das Abonnieren?",
+        "Erklären Sie mir, warum man Objekten abnonieren kann",
+        "Was ist der Nutzen des Abonnierens?",
+        "Was bewirkt das Abonnieren von Objekten?",
+        "Warum sollte ich Objekte abonnieren?",
+        "Was ist der Zweck des Abonnierens von Objekten?",
+        "Welchen Nutzen hat das Abonnieren von Objekten?",
+        "Was sind die Vorteile des Abonnierens?",
+        "Welche Funktion hat das Abonnieren von Objekten?",
+        "Welche Rolle spielt das Abonnieren von Objekten?",
+        "Was erreiche ich mit dem Abonnieren von Objekten?"
+      ],
+      "antwort": [
+        "<div><p>Dokumente, Register und Ordner können Sie abonnieren. Abonnierte Objekte werden im Eingangskorb aufgelistet, sobald Daten geändert wurden. Sie können beim Abonnieren wählen, bei welchen Änderungen Sie benachrichtigt werden.</p><p>Anfragen können Sie ebenfalls abonnieren. Sobald Objekte angelegt wurden, die den Anfragekriterien entsprechen oder Objekte geändert wurden und damit den Anfragekriterien entsprechen, werden sie ebenfalls im Eingangskorb aufgelistet.</p></div>"
+      ]
+    },
+    {
+      "intent": "abonnement_prozess",
+      "synonym": [
+        "Wie kann ich ein Objekt abonnieren?",
+        "Wie funktioniert das Abonnieren?",
+        "Wie kann ich Dokument abonnieren?",
+        "Wie kann ich Dateien abonnieren?",
+        "Wie abonniere ich ein Objekt?",
+        "Welche Schritte sind notwendig, um ein Objekt zu abonnieren?",
+        "Wie funktioniert das Abonnement für ein Objekt?",
+        "Wie abonniere ich Aktualisierungen für ein bestimmtes Dokument?",
+        "Wie kann ich eine Datei oder ein Dokument abonnieren?",
+        "Wie kann ich Benachrichtigungen für ein Dokument abonnieren?",
+        "Welcher Prozess ist beim Abonnieren eines Objekts beteiligt?"
+      ],
+      "antwort": [
+        "<div><p>Um ein Objekt zu abonnieren, wählen Sie es in einer Trefferliste, an einem Ort usw. aus und folgen Sie dann einem der folgenden Schritte:</p><ul><li><p>Nutzen Sie die Funktion <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio client/Tastaturbelegung_25.png' title='Abonnement' alt='Abonnement - Symbol'> \"Abonnieren\" auf der Menüband-Registerkarte \"Treffer\".</p></li><li><p>Ziehen Sie das gewünschte Objekt in den Korb \"Abonnierte Objekte\".</p></li></ul><p>Legen Sie anschließend Ihre bevorzugten Optionen über den Dialog \"Abonnieren\" fest.</p><p><img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/screenshots/Abonnement_2.png' style='visibility: visible;height: auto;width: 316px;' alt='Abonnement-Maske' title='Abonnement-Maske'></p></div>"
+      ]
+    },
+    {
+      "intent": "arten_von_verlinkungen",
+      "synonym": [
+        "Welche Art der Verlinkung gibt es?",
+        "Was sind die Arten von Verlinkungen?",
+        "Kannst du mir sagen, welche Arten von Verlinkungen es gibt?",
+        "Welche verschiedenen Verlinkungsarten gibt es?",
+        "Welche Kategorien von Verlinkungen existieren?",
+        "Welche Typen von Verlinkungen sind möglich?",
+        "Welche Arten von Links kann ich erstellen?",
+        "Was sind die unterschiedlichen Arten von Verlinkungen?",
+        "Kannst du die verschiedenen Arten von Links erläutern, die zur Verfügung stehen?",
+        "Kannst du die verschiedenen Verlinkungsarten auflisten?",
+        "Welche Arten von Verlinkungen kann ich in meinem Projekt verwenden?"
+      ],
+      "antwort": [
+        "<p>Es gibt zwei Arten von Verlinkungen: die <a href='javascript:sendMessage(Verknüpfung)'>Verknüpfung</a> und der      <a href='javascript:sendMessage(Verweis)'>Verweis</a>.</p>"
+      ]
+    },
+    {
+      "intent": "erstellen_verknuepfung",
+      "synonym": [
+        "Verknüpfung erstellen",
+        "Wie erstelle ich eine Verknüpfung?",
+        "Erklären Sie mir, wie man eine Verknüpfung erstellt.",
+        "Kannst du mir sagen, wie man eine Verknüpfung zwischen Objekten erstellt?",
+        "Wie kann ich eine Verknüpfung für ein Objekt erstellen?",
+        "Was sind die Schritte zum Erstellen einer Verknüpfung?",
+        "Welcher Prozess wird verwendet, um eine Verknüpfung zu erstellen?",
+        "Wie kann ich eine Verknüpfung zu einem bestimmten Objekt hinzufügen?",
+        "Können Sie mir eine Schritt-für-Schritt-Anleitung geben, wie ich eine Verknüpfung erstelle?",
+        "Welche Methode sollte ich anwenden, um eine Verknüpfung zu erstellen?",
+        "Gibt es eine einfache Möglichkeit, eine Verknüpfung zu erstellen?"
+      ],
+      "antwort": [
+        "<p>Wenn Sie ein Objekt (Dokumente, Register und Ordner) mit gedrückter rechter Maustaste auf ein anderes Objekt ziehen, dann wird das Kontextmenü mit dem Eintrag Verknüpfung - Symbol Verknüpfung geöffnet. Mit einem Klick auf das <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/Tastaturbelegung_5.png'> Verknüpfung - Symbol Verknüpfung-Symbol erstellen Sie zwischen beiden Objekten eine Verknüpfung.</p><p>Dieser Weg der Verknüpfungserstellung bietet sich vor allem an, wenn beide Objekte in ein und derselben Objektliste liegen (z. B. im selben Ordner). Er funktioniert aber auch bei Objekten in unterschiedlichen Objektlisten (z. B. in verschiedenen Ordnerfenstern).</p>"
+      ]
+    },
+    {
+      "intent": "erstellen_verweisdokument",
+      "synonym": [
+        "Wie erstelle ich ein Verweisdokument?",
+        "Erklären Sie mir, wie man ein Verweisdokument erstellt.",
+        "Kannst du mir sagen, wie man ein typübergreifendes Verweisdokument erstellt?",
+        "Wie erstelle ich eine Verbindung zwischen zwei Objekten?",
+        "Kannst du mir zeigen, wie ich eine Verknüpfung herstelle?",
+        "Wie lege ich eine Verknüpfung zwischen Objekten an?",
+        "Wie erstelle ich eine Link-Verbindung zwischen zwei Objekten?",
+        "Welche Schritte sind notwendig, um eine Verknüpfung zu erstellen?",
+        "Wie kann ich eine Verknüpfung zwischen verschiedenen Objekten herstellen?",
+        "Kannst du mir die Schritte zum Erstellen einer Verknüpfung zeigen?",
+        "Kannst du mir die Schritte zum Erstellen einer Verknüpfung zeigen?"
+      ],
+      "antwort": [
+        "<p>Ziehen Sie ein markiertes Dokument mit gedrückter rechter Maustaste auf einen anderen Ordner oder Register, wird ein Kontextmenü geöffnet. Sie können wählen, ob Sie dem Dokument einen weiteren Standort hinzufügen, ob Sie eine Kopie erstellen (siehe <a href='javascript:sendMessage(Dokumente kopieren)'>Dokumente kopieren</a>), ob Sie das Dokument verschieben oder ob Sie ein typübergreifendes Verweisdokument anlegen.</p><p>Erstellen Sie ein typübergreifendes <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/abp_6.png' class='e_icon' alt='Verweisdokument - Symbol' title='Verweisdokument'> Verweisdokument, werden Sie aufgefordert der Dokumentdatei einen anderen Dokumenttyp zu zuweisen. Sie wählen den Dokumenttyp aus, der zum Dateiformat passt und geben die Indexdaten ein. Gibt es Felder mit gleichen internen Namen, dann werden die Indexdaten voreingetragen. Daten in Tabellen werden nicht voreingetragen.</p>"
+      ]
+    },
+    {
+      "intent": "vorlagen_erstellen",
+      "synonym": [
+        "Wie kann ich eine Vorlage hinterlegen?",
+        "Ich möchte eine neue Vorlage in enaio erstellen. Wie mache ich das?",
+        "Wie erstelle ich eine neue Vorlage in enaio?",
+        "Wie füge ich eine neue Vorlage in enaio hinzu?",
+        "Wie kann ich eine Vorlage in enaio setzen?",
+        "Wie hinterlege ich eine neue Vorlage in enaio?",
+        "Wie kann ich eine neue Vorlage in enaio hinzufügen?",
+        "Kannst du mir zeigen, wie ich eine Vorlage in enaio hinterlege?",
+        "Wie lege ich eine Vorlage in enaio an?",
+        "Kannst du mir den Prozess erklären, eine Vorlage in enaio zu hinterlegen?",
+        "Wie kann ich eine Vorlage in meinem enaio-System hinterlegen?"
+      ],
+      "antwort": [
+        "In enaio können nur Administratoren Vorlagen hinterlegen. Diese Berechtigung ist den Administratoren vorbehalten, um sicherzustellen, dass nur autorisierte Personen die Möglichkeit haben, Vorlagen im System zu erstellen und zu verwalten. Wenn du eine Vorlage benötigst oder Änderungen an bestehenden Vorlagen vornehmen möchtest, wende dich bitte an einen Administrator, der dir weiterhelfen kann."
+      ]
+    },
+    {
+      "intent": "ordner_anfragen",
+      "synonym": [
+        "Wie kann ich Ordner anfragen?",
+        "Wie kann ich nach Akten suchen?",
+        "Wie funktioniert die Aktensuche?",
+        "Kannst du mir sagen, wie ich Ordner suche?",
+        "Wie finde ich einen bestimmten Ordner?",
+        "Kannst du mir zeigen, wie ich Ordner finde?",
+        "Wie suche ich nach bestimmten Ordnern?",
+        "Wie kann ich eine Suche nach Akten durchführen?",
+        "Wie führe ich eine Aktensuche durch?",
+        "Wie finde ich Akten?",
+        "Kannst du mir den Prozess der Aktensuche erklären?"
+      ],
+      "antwort": [
+        "Um Ordner anzufragen, folgen Sie bitte diesen Schritten: \n1. Öffnen Sie die Objektsuche. \n2. Klicken Sie doppelt auf das Ordnersymbol des gewünschten Ordnertyps. Die Anfragemaske wird geöffnet. \n3. Füllen Sie die Anfragemaske aus. \n4. Klicken Sie auf die Schaltfläche 'Anfrage starten' oder drücken Sie die Eingabetaste. \nDas Ergebnisfenster mit der Ordnertrefferliste wird geöffnet."
+      ]
+    },
+    {
+      "intent": "register_anfragen",
+      "synonym": [
+        "Wie kann ich Register anfragen?",
+        "Wie kann ich nach Registern suchen?",
+        "Wie funktioniert die Registersuche?",
+        "Kannst du mir sagen, wie ich Register suche?",
+        "Wie kann man nach einen Vorgang suchen? ",
+        "Wie finde ich bestimmte Register?",
+        "Wie kann ich Register gezielt suchen?",
+        "Kannst du mir den Prozess der Registersuche erklären?",
+        "Wie kann ich eine Registersuche durchführen?",
+        "Wie führe ich eine Suche nach Vorgängen durch?",
+        "Wie finde ich bestimmte Vorgänge in den Registern?"
+      ],
+      "antwort": [
+        "Um Register anzufragen, folgen Sie bitte diesen Schritten: \n1. Öffnen Sie die Objektsuche. \n2. Klicken Sie doppelt auf das Registersymbol des gewünschten Registertyps. Die Anfragemaske wird geöffnet. \n3. Füllen Sie die Anfragemaske aus. \n4. Klicken Sie auf die Schaltfläche 'Anfrage starten' oder drücken Sie die Eingabetaste. \nDas Ergebnisfenster mit der Registertrefferliste wird geöffnet."
+      ]
+    },
+    {
+      "intent": "dokument_anfragen",
+      "synonym": [
+        "Wie kann ich Dokumente anfragen?",
+        "Wie kann ich nach einer Datei im enaio suchen",
+        "Wie funktioniert die Dokumentensuche?",
+        "Wie finde ich bestimmte Dokumente?",
+        "Wie durchsuche ich Dateien in enaio?",
+        "Welche Methoden gibt es, um Dokumente in enaio zu finden?",
+        "Wie kann ich eine Dateisuche in enaio durchführen?",
+        "Gibt es einen Leitfaden, um Dokumente in enaio zu finden?",
+        "Kannst du mir sagen, wie man eine Datei in enaio findet?",
+        "Welche Schritte muss ich befolgen, um ein Dokument in enaio zu suchen?",
+        "Wie kann ich eine spezifische Datei in enaio suchen?"
+      ],
+      "antwort": [
+        " Um Dokumente anzufragen, folgen Sie bitte diesen Schritten: \n1. Öffnen Sie die Objektsuche. \n2. Öffnen Sie in der Objektsuche einen Ordnertyp. \n3. Klicken Sie doppelt auf einen Dokumenttyp. Die Anfragemaske für den Dokumenttyp wird geöffnet. \n4. Füllen Sie die Anfragemaske aus. \n5. Klicken Sie auf die Schaltfläche 'Anfrage starten' oder drücken Sie die Eingabetaste. \nDie Dokumententrefferliste wird geöffnet."
+      ]
+    },
+    {
+      "intent": "dokumente_mehre_register",
+      "synonym": [
+        "Wie kann ich ein Dokument in mehren Register ablegen?",
+        "Wie kann ich ein Dokument in mehren Vorgängen ablegen?",
+        "Wie erstelle ich Dokumente in verschiedenen Akten?",
+        "Wie kann ich Dokumente in mehreren Vorgängen oder Akten anlegen?",
+        "Wie kann ich eine Dokumentensuche durchführen?",
+        "Wie finde ich bestimmte Dateien in enaio?",
+        "Wie kann ich eine gezielte Suche nach Dokumenten durchführen?",
+        "Wie kann ich in enaio nach einer bestimmten Datei suchen?",
+        "Wie kann ich Dokumente in enaio gezielt suchen?",
+        "Kannst du mir den Prozess der Dokumentensuche erklären?"
+      ],
+      "antwort": [
+        "    Für die Anlage von Dokumenten in mehreren Vorgängen oder Akten können Sie folgende Methoden verwenden: <ol>  <li><a href='javascript:sendMessage(kopieren vom Dokument)'>Kopieren</a></li>    <li><a href='javascript:sendMessage(kopieren vom Dokument)'>Verweisdokument</a></li>    <li><a href='javascript:sendMessage(kopieren vom Dokument)'>Dokumente kopieren</a></li></ol>"
+      ]
+    },
+    {
+      "intent": "freigabe_von_dokumenten",
+      "synonym": [
+        "Wie kann ich ein Dokument freigeben?",
+        "Was sind die Schritte zur Freigabe eines Dokuments?",
+        "Können Sie mir erklären, wie ich ein Dokument für andere freigeben kann?",
+        "Wie teile ich ein Dokument mit anderen?",
+        "Wie gebe ich ein Dokument zur Ansicht frei?",
+        "Wie funktioniert die Freigabe eines Dokuments?",
+        "Wie kann ich ein Dokument für andere zugänglich machen?",
+        "Wie gebe ich ein Dokument für bestimmte Benutzer frei?",
+        "Wie kann ich ein Dokument mit Kollegen teilen?",
+        "Welcher Prozess ist notwendig, um ein Dokument für die gemeinsame Nutzung freizugeben?",
+        "Wie kann ich ein Dokument für externe Personen freigeben?"
+      ],
+      "antwort": [
+        "Um ein Dokument freizugeben, folgen Sie bitte diesen Schritten:<ol>        <li>Wählen Sie über das Kontextmenü eines Dokuments die Funktion <img src='https://help.optimal-systems.com/enaio/v1010/user/client/de/Resources/Images/icons/enaio%20client/ic_freigeben-von-mir.png'                class='e_icon' title='Kontextmenü -  Freigaben' alt='Kontextmenü -  Freigaben - Symbol'                style='width: 24;height: 24;'> Freigeben. Der Dialog 'Dokument freigeben' wird geöffnet.</li>        <li>            Markieren Sie im Dialog einen oder mehrere Benutzer. Die Liste der Benutzer können Sie filtern.</li>        <li> Geben Sie            einen Zeitraum ein. Die maximale Länge des Zeitraums ist administrativ vorgegeben.</li>        <li> Markieren Sie die            gewünschten Zugriffsrechte.</li>        <li> Tragen Sie einen Hinweis ein.</li>        <li> Bestätigen Sie mit OK.\nDas Dokument wird            freigegeben und in der Liste 'Für mich freigegeben' der entsprechenden Benutzer angezeigt.</li>    </ol>"
+      ]
+    },
+    {
+      "intent": "bedeutung_aus_einchecken",
+      "synonym": [
+        "Was bedeutet ein Einchecken?",
+        "Was bedeutet Auschecken?",
+        "Wieso ist Einchecken so wichtig?",
+        "Was ist die Bedeutung des Eincheckens?",
+        "Was versteht man unter dem Auschecken?",
+        "Können Sie mir erklären, was Einchecken bedeutet?",
+        "Was ist der Zweck des Eincheckens?",
+        "Warum ist das Einchecken so wichtig?",
+        "Was bedeutet es, ein Dokument einzuchecken?",
+        "Was ist der Nutzen des Auscheckens von Dateien?",
+        "Können Sie die Bedeutung des Eincheckens genauer erläutern?"
+      ],
+      "antwort": [
+        "   <p>Öffnen Sie ein W-Dokument zum Anzeigen oder zum Bearbeiten, wird es ausgecheckt und in <span    class='mc-variable enaio_products.enaio variable'>enaio®</span> in Objektlisten (z.&nbsp;B. in Trefferlistenoder in der Ordneransicht)&nbsp;mit einen <img    src='https://help.optimal-systems.com/enaio/v110/user/client/de/Resources/Images/icons/enaio%20client/Anfragen%20nach%20Dokumenten_3.png'    class='e_icon' title='Schloss mit rotem Kreuz' alt='Schloss mit rotem Kreuz - Symbol'> Schloss mit rotem Kreuz gekennzeichnet. Andere Benutzer können ausgecheckte W-Dokumente selbst nicht bearbeiten und nur eine schreibgeschützte Kopie öffnen. Dokumente, die Sie selbst ausgecheckt haben sind in Objektlisten durch ein gelbes <img     src='https://help.optimal-systems.com/enaio/v110/user/client/de/Resources/Images/icons/enaio%20client/Anfragen%20nach%20Dokumenten_4.png'     class='e_icon' title='Schloss' alt='Schloss - Symbol'> Schloss gekennzeichnet. </p> <p>Nach dem Bearbeiten müssen Sie das Dokument <span class='SearchHighlight SearchHighlight1'>einchecken</span>,damit andere Benutzer es bearbeiten können. Ausgecheckte Dokumente können normalerweise nur von dem Benutzer eingecheckt werden, von dem sie ausgecheckt wurden. Ebenso können sie nur an dem Arbeitsplatz eingecheckt werden, an dem sie ausgecheckt wurden. </p>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="./static/chat.css" />
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <i class="material-icons">chat</i>
+      <span class="chat-title">Chatbot</span>
+    </div>
+    <div class="chat-body" id="chat-container">
+      <div class="bot-bubble">
+        <p>
+          Willkommen beim enaio Chatbot!<br>
+          Hier findest du Informationen zu den Basisfunktionen von enaio. Dazu gehören:
+        </p>
+        <select id="selectList" onchange="sendMessage(this.value)">
+          <option value="" disabled selected>Bitte wählen Sie eine Option aus</option>
+          <option value="Anfragen">Anfragen</option>
+          <option value="Anlage">Neuanlage</option>
+          <option value="Wiedervorlagen">Wiedervorlage</option>
+          <option value="Kopieren">Kopieren</option>
+          <option value="Löschen">Entfernen</option>
+          <option value="Verknüpfungen">Verknüpfungen</option>
+          <option value="Mail versenden">Sende Dokumente</option>
+        </select>
+        <p>
+          Ich stehe dir gerne zur Seite und beantworten Fragen zu diesen Basisfunktionen. Zögere nicht, mich zu
+          kontaktieren und enaio optimal zu nutzen, um deine Arbeitsabläufe zu verbessern. Viel Spaß beim Erkunden und
+          Entdecken von enaio!
+        </p>
+      </div>
+    </div>
+    <div class="loader-container" id="loader-container" style="display: none">
+      <div class="loader"></div>
+    </div>
+    <div class="quick-replies" id="quickRepliesContainer"></div>
+    <div class="action-buttons">
+      <button id="positiveBtn" class="hidden" onclick="giveFeedback('positive')">
+        <i class="material-icons">thumb_up</i>
+      </button>
+      <button id="negativeBtn" class="hidden" onclick="giveFeedback('negative')">
+        <i class="material-icons">thumb_down</i>
+      </button>
+    </div>
+    <input type="text" class="user-input" id="user-input" placeholder="Type your message..." />
+  </div>
+
+  <script src="./static/chat.js"></script>
+</body>
+
+</html>

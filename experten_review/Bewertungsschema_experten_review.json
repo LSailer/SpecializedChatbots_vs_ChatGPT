@@ -1,0 +1,118 @@
+{
+    "chatGPT": [
+        {
+            "Präzision": 2,
+            "Richtigkeit": 3,
+            "Robustheit": 5,
+            "Nutzererfahrung": 5,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 3.5,
+            "Robustheit": 2.5,
+            "Nutzererfahrung": 3.5,
+            "Gesamteindruck": 3.5
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 3.5,
+            "Robustheit": 2.5,
+            "Nutzererfahrung": 3.5,
+            "Gesamteindruck": 3.5
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 3,
+            "Robustheit": 4,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 2,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 4,
+            "Robustheit": 3.5,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 4
+        },
+        {
+            "Präzision": 3,
+            "Richtigkeit": 4,
+            "Robustheit": 3,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 4
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 4,
+            "Robustheit": 4,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 4
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 4,
+            "Robustheit": 4,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 4
+        }
+    ],
+    "DMS_Chatbot": [
+        {
+            "Präzision": 5,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 3,
+            "Gesamteindruck": 2
+        },
+        {
+            "Präzision": 3.5,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 3,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 3.5,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 3,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 2,
+            "Richtigkeit": 4,
+            "Robustheit": 3,
+            "Nutzererfahrung": 2,
+            "Gesamteindruck": 2
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 4,
+            "Robustheit": 1,
+            "Nutzererfahrung": 4,
+            "Gesamteindruck": 4
+        },
+        {
+            "Präzision": 4,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 3,
+            "Gesamteindruck": 3
+        },
+        {
+            "Präzision": 3,
+            "Richtigkeit": 3,
+            "Robustheit": 2,
+            "Nutzererfahrung": 2,
+            "Gesamteindruck": 2
+        }
+    ]
+}

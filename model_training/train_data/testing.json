@@ -1,0 +1,523 @@
+{
+    "tests": [
+        {
+            "intent": "navigation",
+            "utterances": [
+                "Wie füge ich Objekte der Navigation hinzu?",
+                "Wie kann ich Objekte in der Navigation platzieren?",
+                "Wie füge ich Dokumente der Favoriten-Navigation hinzu?",
+                "Wie kann ich Dokumente in den Favoriten ablegen?",
+                "Wie platziere ich Register in der Navigation?",
+                "Wie kann ich Elemente in der Navigation platzieren?",
+                "Wie speichere ich Register in der Navigation ab?",
+                "Wo platziere ich Objekte in der Navigation?",
+                "Objekte in der Navigation",
+                "Dokumente in den Favoriten",
+                "Register in der Navigation",
+                "Gegenstände in der Navigation",
+                "Elemente in der Navigation",
+                "Wie kann ich Objekte in der Navigation ablegen?",
+                "Ich habe Schwierigkeiten, Objekte in der Navigation abzulegen. Könntest du mir bitte erklären, wie ich Objekte in der Navigation platzieren kann?",
+                "Es bereitet mir Probleme, Dokumente den Favoriten in der Navigation hinzuzufügen. Gibt es eine spezielle Methode, um Dokumente in den Favoriten abzulegen?",
+                "Ich habe versucht, Register in der Navigation zu platzieren, aber es funktioniert nicht wie erwartet. Gibt es einen bestimmten Weg, dies zu tun?",
+                "Ich habe Schwierigkeiten, Elemente in der Navigation zu platzieren. Gibt es Tipps oder Hinweise, worauf ich achten sollte?",
+                "Kannst du mir bitte eine Anleitung geben, wie ich Register in der Navigation speichern kann? Ich bin mir unsicher, wie es funktioniert.",
+                "Wo ist der richtige Ort, um Objekte in der Navigation zu platzieren? Ich bin mir unsicher, wohin ich sie genau ablegen soll.",
+                "Ich habe Schwierigkeiten, Objekte in der Navigation abzulegen. Könntest du mir bitte erklären, wie ich Objekte in der Navigation platzieren kann?"
+            ]
+        },
+        {
+            "intent": "navigation_usecase",
+            "utterances": [
+                "Objekte in Navigation",
+                "Was genau ist die Navigation?",
+                "Aufgabe der Navigation",
+                "Was bezweckt die Navigation?",
+                "Die Navigation, wozu dient sie?",
+                "Was genau ist die Navigation?",
+                "Wozu wird die Navigation verwendet?",
+                "Was sind die Auswirkungen der Navigation?",
+                "Was bezweckt die Navigation?",
+                "Warum ist die Navigation so wichtig?",
+                "Was wird durch die Navigation ermöglicht?",
+                "Welche Rolle spielt die Navigation?",
+                "Welchen Vorteil bietet die Navigation?",
+                "Funktion der Navigation",
+                "Aufgabe der Navigation",
+                "Verwendung der Navigation",
+                "Auswirkungen der Navigation",
+                "Zweck der Navigation",
+                "Wichtigkeit der Navigation",
+                "Möglichkeiten durch Navigation",
+                "Rolle der Navigation",
+                "Nutzen der Navigation",
+                "Wozu dient die Navigation? Ich frage mich, welche Funktion die Navigation hat. Könntest du das erklären?",
+                "Was ist die Navigation? Kannst du mir bitte sagen, was genau die Navigation ist und wofür sie verwendet wird?",
+                "Was ist die Funktion der Navigation? Ich möchte verstehen, welche Aufgabe die Navigation erfüllt.",
+                "Was ist die Aufgabe der Navigation? Kannst du mir bitte erklären, welche Rolle die Navigation spielt und was sie bewirkt?",
+                "Wofür wird die Navigation verwendet? Ich bin daran interessiert zu wissen, wie die Navigation in der Praxis genutzt wird.",
+                "Was bewirkt die Navigation? Ich frage mich, welche Auswirkungen die Navigation hat und was sie ermöglicht.",
+                "Was ist der Zweck der Navigation? Könntest du mir bitte den Zweck und die Bedeutung der Navigation erläutern?",
+                "Warum ist die Navigation wichtig? Ich möchte verstehen, warum die Navigation eine relevante Funktion ist.",
+                "Was wird durch Navigation ermöglicht? Kannst du mir bitte sagen, welche Möglichkeiten und Vorteile die Navigation bietet?",
+                "Was ist die Rolle der Navigation? Ich frage mich, welche Funktion und Verantwortung die Navigation hat.",
+                "Welchen Nutzen hat die Navigation? Könntest du mir bitte den Nutzen und die Bedeutung der Navigation erklären?"
+            ]
+        },
+        {
+            "intent": "kopieren_register",
+            "utterances": [
+                "Wie kann man ein Register kopieren?",
+                "Wie kann man ein Ordner kopieren?",
+                "Wie lässt sich ein Register duplizieren?",
+                "Register kopieren",
+                "Wie kann man das Kopieren eines Registers durchführen?",
+                "Wie geht man vor, um ein Register zu kopieren?",
+                "Gibt es eine Methode, um ein Register zu duplizieren?",
+                "Wie kann man ein Register vervielfältigen?",
+                "Welche Vorgehensweise ist beim Kopieren eines Registers notwendig?",
+                "Wie kann man eine Kopie eines Registers erstellen?",
+                "Was ist der Prozess zum Kopieren eines Registers?",
+                "Register kopieren",
+                "Ordner kopieren",
+                "Welche Vorgehensweise ist beim Kopieren eines Registers notwendig?",
+                "Register kopieren",
+                "Könntest du mir bitte ausführlich erklären, wie ich ein Register oder einen Ordner kopieren kann?",
+                "Register duplizieren",
+                "Ordner duplizieren",
+                "   Könntest du mir bitte ausführlich erklären, wie ich ein Register oder einen Ordner kopieren kann?",
+                "Gibt es spezifische Methoden, Schritte oder Vorgehensweisen, die ich beim Duplizieren eines Registers beachten sollte?",
+                "Was ist der genaue Prozess, um eine exakte Kopie eines Registers oder Ordners zu erstellen?"
+            ]
+        },
+        {
+            "intent": "kopieren_dokument",
+            "utterances": [
+                "Wie kann ich ein Dokument kopieren?",
+                "Dokument kopieren",
+                "Wie kopiere ich ein Dokument?",
+                "Wie genau geht man vor, um ein Dokument zu kopieren?",
+                "Wie kopiere ich ein Dokument?",
+                "Wie lässt sich ein Dokument duplizieren?",
+                "Wie dupliziere ich ein Dokument?",
+                "Wie kopiere ich Dateien in andere Register?",
+                "Wie kann man ein Dokument vervielfältigen?",
+                "Wie geht man vor, um ein Dokument zu kopieren?",
+                "Wie erstellt man eine Kopie eines Dokuments?",
+                "Was ist die Methode, um ein Dokument zu duplizieren?",
+                "Wie kann ich eine Kopie eines Dokuments machen?",
+                "kopieren Dokument",
+                "Dokument duplizieren",
+                "In welchem Verfahren kann ein Dokument kopiert oder dupliziert werden?",
+                " Gibt es spezielle Methoden, um Dateien in andere Register zu kopieren?",
+                "Wie genau geht man vor, um ein Dokument zu kopieren?",
+                " Welche Schritte sind notwendig, um eine genaue Kopie eines Dokuments zu erstellen?"
+            ]
+        },
+        {
+            "intent": "verschieben_register",
+            "utterances": [
+                "Kann ich das Register verschieben?",
+                "Welche Methode soll ich verwenden, um ein Register zu verschieben?",
+                "Gibt es eine Anleitung zum Verschieben eines Registers?",
+                "Kannst du mir zeigen, wie man ein Register verschiebt?",
+                "Ich möchte das Register verschieben. Wie mache ich das?",
+                "Was muss ich tun, um ein Register zu verschieben?",
+                "Kannst du mir den Prozess zum Verschieben eines Registers erklären?",
+                "Ich möchte ein Register bewegen. Wie gehe ich vor?",
+                "Kann ich ein Register an einen anderen Ort verschieben?",
+                "Ist es möglich, ein Register zu verlagern?",
+                "Wie kann ich das Register an einen anderen Platz versetzen?",
+                "Register verlagern",
+                "Register versetzen",
+                "Register bewegen",
+                "Verschieben Register",
+                "Verschieben Anleitung",
+                "Methode Register verschieben",
+                "Anleitung Register verschieben",
+                "Prozess Register verschieben",
+                "Register verschieben Ort",
+                "Register verschieben Platz",
+                "Kannst du mir erklären, wie ich ein Register verschieben kann?",
+                "Was sind die Schritte, die ich befolgen muss, um ein Register zu verschieben?",
+                "Ich brauche eine ausführliche Anleitung zum Verschieben eines Registers. Kannst du mir dabei helfen?",
+                "Ich bin mir nicht sicher, wie ich ein Register versetzen kann. Kannst du mir das erklären?",
+                "Ich habe ein Register, das ich an einen anderen Ort verschieben möchte. Wie mache ich das?",
+                "Kannst du mir den gesamten Prozess zum Verschieben eines Registers beschreiben?",
+                "Ich stehe vor der Aufgabe, ein Register zu verlagern. Wie führe ich das durch?",
+                "Ich muss ein Register an einen anderen Platz versetzen. Kannst du mir dabei helfen?",
+                "Könntest du mir den Ablauf erläutern, um ein Register von einem Ort zum anderen zu bewegen?",
+                "Gibt es eine bestimmte Methode oder Anleitung, die ich befolgen kann, um ein Register zu verschieben?",
+                "Welche Methode soll ich verwenden, um ein Register zu verschieben?",
+                "Verschieben Register",
+                "Was sind die Schritte, die ich befolgen muss, um ein Register zu verschieben?",
+                "Ich würde gerne wissen, was der genaue Prozess ist, um ein Register zu verschieben. Kannst du mir das erklären?"
+            ]
+        },
+        {
+            "intent": "kopieren_dokument_registeruebergreifend      ",
+            "utterances": [
+                "Welche Verfahren existieren, um Dateien in verschiedene Register zu kopieren?",
+                "Was ist die beste Methode, um Dateien in andere Ordner zu verschieben?",
+                "Wie kann ich eine Datei in ein anderes Verzeichnis replizieren?",
+                "Wie kopiere ich Dateien in andere Register einer anderen Akte?",
+                "Gibt es spezielle Methoden, um Dateien in andere Register von einer anderen Akte zu kopieren?"
+
+            ]
+        },
+        {
+            "intent": "verschieben_dokument",
+            "utterances": [
+                "Ich möchte wissen, wie ich Dateien zu einem anderen Register schieben kann.",
+                "Was ist die Methode, um Dokumente in andere Register zu verschieben?",
+                "Ich muss einige Dateien in ein anderes Register verschieben. Wie mache ich das?",
+                "Kannst du mir helfen, Dateien in ein anderes Register zu übertragen?",
+                "Wie kann ich Dateien in ein anderes Register versetzen?",
+                "Was ist die beste Vorgehensweise, um Dateien in andere Register zu verschieben?",
+                "Wie verschiebe ich Dokumente von einem Register zum anderen?",
+                "Könntest du mir den Prozess zum Verschieben von Dateien in andere Register erklären?",
+                "Was sind die Schritte zum Transferieren von Dateien in andere Register?",
+                "Ich möchte Dateien von einem Register zu einem anderen bewegen. Wie stelle ich das an?",
+                "Ich möchte wissen, wie ich Dateien zu einem anderen Register schieben kann.",
+                "Verschieben von Dokumenten",
+                "Ich muss einige Dateien in ein anderes Register verschieben. Wie mache ich das?"
+            ]
+        },
+        {
+            "intent": "verschieben_dokument_schrankuebergreifend",
+            "utterances": [
+                "Ich muss einige Dokumente von einem Schrank in einen anderen verlegen. Wie geht das?",
+                "Kann ich Unterlagen zwischen verschiedenen Aktenschränken transferieren?",
+                "Gibt es eine Möglichkeit, Dateien schrankübergreifend zu verschieben?",
+                "Ich möchte einige Unterlagen in einen anderen Aktenschrank verschieben. Ist das möglich?",
+                "Wie kann ich Dokumente von einem Schrank in einen anderen bewegen?",
+                "Welche Schritte sind notwendig, um Dokumente in einen anderen Schrank zu verschieben?",
+                "Wie verschiebe ich Unterlagen zwischen Schränken?",
+                "Könntest du mir erklären, wie man Unterlagen schrankübergreifend verschieben kann?",
+                "Ist das Verschieben von Dateien von einem Aktenschrank in einen anderen erlaubt?",
+                "Wie transferiere ich Unterlagen von einem Aktenschrank in einen anderen?"
+            ]
+        },
+        {
+            "intent": "datenloeschen_register",
+            "utterances": [
+                "Ich muss ein Register löschen. Wie geht das?",
+                "Kannst du mir zeigen, wie man ein Register löscht?",
+                "Ich möchte ein Register entfernen. Was ist die Vorgehensweise?",
+                "Wie kann ich ein Register dauerhaft löschen?",
+                "Welche Schritte muss ich befolgen, um ein Register zu löschen?",
+                "Ich will ein Register vernichten. Wie mache ich das?",
+                "Kannst du mir den Prozess zum Löschen eines Registers erklären?",
+                "Ich muss ein Register aus meinem System entfernen. Wie mache ich das?",
+                "Was muss ich tun, um ein Register vollständig zu löschen?",
+                "Wie entferne ich ein Register dauerhaft aus meinem System?"
+            ]
+        },
+        {
+            "intent": "datenloeschen_dokument",
+            "utterances": [
+                "Ich muss einige Dokumente löschen. Wie mache ich das?",
+                "Kannst du mir helfen, Dateien aus meinem System zu entfernen?",
+                "Ich möchte wissen, wie ich Dokumente entfernen kann.",
+                "Wie lösche ich Dokumente dauerhaft aus meinem System?",
+                "Welche Schritte muss ich befolgen, um Dateien zu löschen?",
+                "Ich will einige Dateien vernichten. Wie mache ich das?",
+                "Könntest du mir den Prozess zum Löschen von Dokumenten erklären?",
+                "Ich muss einige Dateien aus meinem System löschen. Wie mache ich das?",
+                "Was muss ich tun, um Dokumente dauerhaft zu löschen?",
+                "Wie entferne ich Dateien dauerhaft aus meinem System?",
+                "Was muss ich tun, um ein Register vollständig zu löschen?",
+                "Wie entferne ich ein Register dauerhaft aus meinem System?",
+                "Anleitung zum Löschen eines Registers",
+                "Kannst du mir helfen, Dateien aus meinem System zu entfernen?",
+                "Könntest du mir den Prozess zum Löschen von Dokumenten erklären?",
+                "Ich muss einige Dateien aus meinem System löschen. Wie mache ich das?",
+                "Prozess zum Löschen von Dokumenten"
+            ]
+        },
+        {
+            "intent": "versand_mails",
+            "utterances": [
+                "Ich möchte eine E-Mail verschicken. Wie mache ich das?",
+                "Könntest du mir erklären, wie ich eine E-Mail mit einem Word-Dokument als PDF-Anhang versende?",
+                "Wie sende ich einen Link per E-Mail?",
+                "Ich möchte einen Verweis per E-Mail senden. Wie gehe ich vor?",
+                "Wie kann ich ein PDF-Dokument per E-Mail senden?",
+                "Ich möchte eine E-Mail verschicken. Wie mache ich das?",
+                "Könntest du mir erklären, wie ich eine E-Mail mit einem Word-Dokument als PDF-Anhang versende?",
+                "Wie sende ich einen Link per E-Mail?",
+                "Ich möchte einen Verweis per E-Mail senden. Wie gehe ich vor?",
+                "Wie kann ich ein PDF-Dokument per E-Mail senden?"
+            ]
+        },
+        {
+            "intent": "anlegung_document",
+            "utterances": [
+                "Ich möchte ein neues Dokument erstellen. Was muss ich tun?",
+                "Wie erstelle ich ein neues Dokument mit einer Vorlage?",
+                "Wie lege ich eine neue Datei an?",
+                "Könntest du mir zeigen, wie ich ein Dokument auf Basis einer Vorlage erstelle?",
+                "Wie kann ich eine Vorlage für ein neues Dokument verwenden?",
+                "Ich möchte ein neues Dokument erstellen. Was muss ich tun?",
+                "Könntest du mir zeigen, wie ich ein Dokument auf Basis einer Vorlage erstelle?",
+                "Wie kann ich eine Vorlage für ein neues Dokument verwenden?"
+            ]
+        },
+        {
+            "intent": "anlegung_akte_menu",
+            "utterances": [
+                "Wie lege ich eine neue Akte über das Menüband an?",
+                "Ich möchte eine Akte aus dem Menüband erstellen. Wie mache ich das?",
+                "Wie kann ich einen neuen Verzeichnisordner über das Menüband erstellen?",
+                "Ich möchte einen Ordner über das Menüband erstellen. Was sind die Schritte?",
+                "Ich möchte eine Akte aus dem Menü erstellen. Wie gehe ich vor?",
+                "Wie lege ich eine neue Akte über das Menüband an?",
+                "Können Sie mir die Schritte zeigen, um einen Ordner über das Menüband zu erstellen?",
+                "Welche Schritte muss ich befolgen, um einen neuen Ordner über das Menüband zu erstellen?",
+                "Wie erstelle ich eine Akte mit Hilfe des Menübands?",
+                "Wie lege ich eine neue Akte über das Menüband an?",
+                "Ich möchte eine Akte aus dem Menüband erstellen. Wie mache ich das?",
+                "Wie kann ich einen neuen Verzeichnisordner über das Menüband erstellen?",
+                "Ich möchte einen Ordner über das Menüband erstellen. Was sind die Schritte?",
+                "Ich möchte eine Akte aus dem Menü erstellen. Wie gehe ich vor?"
+            ]
+        },
+        {
+            "intent": "anlegung_akte_objektsuche",
+            "utterances": [
+                "Ich möchte eine Akte aus der Objektsuche erstellen. Wie mache ich das?",
+                "Wie erstelle ich einen neuen Ordner über die Objektsuche?",
+                "Wie lege ich eine Akte über das Menüband an?",
+                "Wie erstelle ich einen neuen Ordner aus der Objektsuche?",
+                "Welche Schritte sind notwendig, um eine Akte aus der Objektsuche zu erstellen?",
+                "Was ist der richtige Weg, Dateien in ein anderes Verzeichnis zu kopieren?",
+                "Können Sie mir zeigen, wie ich Dateien in verschiedene Ordner dupliziere?",
+                "Welche Verfahren existieren, um Dateien in verschiedene Register zu kopieren?",
+                "Wie kann ich eine Datei in ein anderes Verzeichnis replizieren?",
+                "Ich möchte eine Akte aus der Objektsuche erstellen. Wie mache ich das?",
+                "Wie erstelle ich einen neuen Ordner über die Objektsuche?",
+                "Wie lege ich eine Akte über das Menüband an?",
+                "Wie erstelle ich einen neuen Ordner aus der Objektsuche?",
+                "Welche Schritte sind notwendig, um eine Akte aus der Objektsuche zu erstellen?"
+            ]
+        },
+        {
+            "intent": "anlegung_register",
+            "utterances": [
+                "Wie erstelle ich ein neues Register?",
+                "Ich möchte ein neues Register anlegen. Wie mache ich das?",
+                "Wie füge ich ein Register hinzu?",
+                "Ich möchte ein Register erstellen und hinzufügen. Was sind die Schritte?",
+                "Wie lege ich ein neues Register an?",
+                "Wie erstelle ich ein neues Register?",
+                "Ich möchte ein neues Register anlegen. Wie mache ich das?",
+                "Wie füge ich ein Register hinzu?",
+                "Ich möchte ein Register erstellen und hinzufügen. Was sind die Schritte?",
+                "Wie lege ich ein neues Register an?"
+            ]
+        },
+        {
+            "intent": "import_document",
+            "utterances": [
+                "Wie importiere ich ein Dokument in enaio?",
+                "Ich möchte ein Dokument in enaio hinzufügen. Wie mache ich das?",
+                "Wie kann ich ein neues Dokument zu enaio hinzufügen?",
+                "Ich möchte ein Dokument in enaio einbringen. Was sind die Schritte?",
+                "Wie kann ich ein Dokument in enaio hineinbringen?",
+                "Wie importiere ich ein Dokument in enaio?",
+                "Ich möchte ein Dokument in enaio hinzufügen. Wie mache ich das?",
+                "Wie kann ich ein neues Dokument zu enaio hinzufügen?",
+                "Ich möchte ein Dokument in enaio einbringen. Was sind die Schritte?",
+                "Wie kann ich ein Dokument in enaio hineinbringen?"
+            ]
+        },
+        {
+            "intent": "scan_document_kontextmenue",
+            "utterances": [
+                "Wie scanne ich ein Dokument direkt über den Client?",
+                "Ich möchte einen Scan direkt über den Client durchführen. Wie mache ich das?",
+                "Wie kann ich einen Scanvorgang direkt über den Client starten?",
+                "Ich möchte ein Dokument direkt über den Clienten scannen. Was sind die Schritte?",
+                "Wie mache ich einen Scan direkt über den Client?",
+                "Wie scanne ich ein Dokument direkt über den Client?",
+                "Ich möchte einen Scan direkt über den Client durchführen. Wie mache ich das?",
+                "Wie kann ich einen Scanvorgang direkt über den Client starten?",
+                "Ich möchte ein Dokument direkt über den Clienten scannen. Was sind die Schritte?",
+                "Wie mache ich einen Scan direkt über den Client?"
+            ]
+        },
+        {
+            "intent": "sammelaenderungen_durchfuehren",
+            "utterances": [
+                "Wie führe ich Sammeländerungen durch?",
+                "Ich möchte mehrere Änderungen auf einmal durchführen. Wie mache ich das?",
+                "Wie kann ich Sammeländerungen in meinen Dokumenten vornehmen?",
+                "Ich möchte Sammeländerungen machen. Was sind die Schritte?",
+                "Wie kann ich Sammeländerungen effektiv durchführen?",
+                "Wie führe ich Sammeländerungen durch?",
+                "Ich möchte mehrere Änderungen auf einmal durchführen. Wie mache ich das?",
+                "Wie kann ich Sammeländerungen in meinen Dokumenten vornehmen?",
+                "Ich möchte Sammeländerungen machen. Was sind die Schritte?",
+                "Wie kann ich Sammeländerungen effektiv durchführen?"
+            ]
+        },
+        {
+            "intent": "wiedervorlagen_durchfuehren",
+            "utterances": [
+                "Wie erstelle ich eine Wiedervorlage?",
+                "Ich möchte eine Wiedervorlage für meine Dokumente einrichten. Wie mache ich das?",
+                "Wie lege ich eine Wiedervorlage an?",
+                "Ich möchte eine Wiedervorlage für meine Unterlagen erstellen. Was sind die Schritte?",
+                "Wie richte ich eine Wiedervorlage für meine Akten ein?",
+                "Wie erstelle ich eine Wiedervorlage?",
+                "Ich möchte eine Wiedervorlage für meine Dokumente einrichten. Wie mache ich das?",
+                "Wie lege ich eine Wiedervorlage an?",
+                "Ich möchte eine Wiedervorlage für meine Unterlagen erstellen. Was sind die Schritte?",
+                "Wie richte ich eine Wiedervorlage für meine Akten ein?"
+            ]
+        },
+        {
+            "intent": "abonnieren_von_objekten_usecase",
+            "utterances": [
+                "Was bewirkt das Abonnieren von Objekten?",
+                "Warum sollte ich Objekte abonnieren?",
+                "Welchen Nutzen hat das Abonnieren von Objekten?",
+                "Ich möchte wissen, welche Vorteile das Abonnieren von Objekten hat.",
+                "Was erreiche ich mit dem Abonnieren von Objekten?",
+                "Was bewirkt das Abonnieren von Objekten?",
+                "Warum sollte ich Objekte abonnieren?",
+                "Welchen Nutzen hat das Abonnieren von Objekten?",
+                "Ich möchte wissen, welche Vorteile das Abonnieren von Objekten hat.",
+                "Was erreiche ich mit dem Abonnieren von Objekten?"
+            ]
+        },
+        {
+            "intent": "abonnement_prozess",
+            "utterances": [
+                "Wie abonniere ich ein Objekt?",
+                "Ich möchte ein Objekt abonnieren. Wie mache ich das?",
+                "Wie abonniere ich Aktualisierungen für ein bestimmtes Dokument?",
+                "Ich möchte eine Datei oder ein Dokument abonnieren. Was sind die Schritte?",
+                "Wie kann ich Benachrichtigungen für ein Dokument abonnieren?",
+                "Wie abonniere ich ein Objekt?",
+                "Ich möchte ein Objekt abonnieren. Wie mache ich das?",
+                "Wie abonniere ich Aktualisierungen für ein bestimmtes Dokument?",
+                "Ich möchte eine Datei oder ein Dokument abonnieren. Was sind die Schritte?",
+                "Wie kann ich Benachrichtigungen für ein Dokument abonnieren?"
+            ]
+        },
+        {
+            "intent": "arten_von_verlinkungen",
+            "utterances": [
+                "Könntest du die unterschiedlichen Arten von Verlinkungen aufzählen?",
+                "Was sind die verschiedenen Typen von Verlinkungen, die ich erstellen kann?",
+                "Welche Verlinkungsarten stehen zur Verfügung?",
+                "Welche Link-Arten sind möglich?",
+                "Gibt es verschiedene Kategorien von Verlinkungen?",
+                "Könntest du die unterschiedlichen Arten von Verlinkungen aufzählen?",
+                "Was sind die verschiedenen Typen von Verlinkungen, die ich erstellen kann?",
+                "Welche Verlinkungsarten stehen zur Verfügung?",
+                "Welche Link-Arten sind möglich?",
+                "Gibt es verschiedene Kategorien von Verlinkungen?"
+            ]
+        },
+        {
+            "intent": "erstellen_verknuepfung",
+            "utterances": [
+                "Ich würde gerne eine Verknüpfung erstellen. Wie geht das?",
+                "Was sind die Schritte, um eine Verknüpfung zu erstellen?",
+                "Ich brauche Hilfe beim Erstellen einer Verknüpfung. Kannst du mir dabei helfen?",
+                "Wie erstelle ich eine Direktverknüpfung zu einem Objekt?",
+                "Wie kann ich einen direkten Link zu einem Objekt erstellen?",
+                "Was ist der richtige Weg, eine Verknüpfung zu einem Objekt zu erstellen?", "Ich würde gerne eine Verknüpfung erstellen. Wie geht das?",
+                "Was sind die Schritte, um eine Verknüpfung zu erstellen?",
+                "Ich brauche Hilfe beim Erstellen einer Verknüpfung. Kannst du mir dabei helfen?"
+            ]
+        },
+        {
+            "intent": "erstellen_verweisdokument",
+            "utterances": [
+                "Ich muss ein Verweisdokument erstellen. Was muss ich tun?",
+                "Wie kann ich eine Verbindung zwischen zwei Elementen erstellen?",
+                "Ich möchte eine Verknüpfung erstellen. Wie gehe ich vor?",
+                "Ich muss ein Verweisdokument erstellen. Was muss ich tun?",
+                "Wie kann ich eine Verbindung zwischen zwei Elementen erstellen?",
+                "Ich möchte eine Verknüpfung erstellen. Wie gehe ich vor?"
+            ]
+        },
+        {
+            "intent": "vorlagen_erstellen",
+            "utterances": [
+                "Ich brauche eine neue Vorlage in enaio. Wie erstelle ich eine?",
+                "Was sind die Schritte zur Erstellung einer neuen Vorlage in enaio?",
+                "Könntest du mir helfen, eine neue Vorlage in enaio hinzuzufügen?",
+                "Ich brauche eine neue Vorlage in enaio. Wie erstelle ich eine?",
+                "Was sind die Schritte zur Erstellung einer neuen Vorlage in enaio?",
+                "Könntest du mir helfen, eine neue Vorlage in enaio hinzuzufügen?"
+            ]
+        },
+        {
+            "intent": "ordner_anfragen",
+            "utterances": [
+                "Ich suche nach einem speziellen Ordner. Wie finde ich diesen?",
+                "Ich muss eine Aktensuche durchführen. Kannst du mir zeigen, wie das geht?",
+                "Ich muss einen Ordner suchen. Wie mache ich das?"
+            ]
+        },
+        {
+            "intent": "register_anfragen",
+            "utterances": [
+                "Ich suche nach einem speziellen Register. Wie finde ich das?",
+                "Ich muss eine Registersuche durchführen. Kannst du mir helfen?",
+                "Wie kann ich einen speziellen Vorgang finden?"
+            ]
+        },
+        {
+            "intent": "dokument_anfragen",
+            "utterances": [
+                "Ich suche ein bestimmtes Dokument. Wie finde ich es?",
+                "Ich muss eine Datei in enaio suchen. Wie geht das?",
+                "Könntest du mir helfen, ein Dokument zu finden?",
+                "Kannst du mir zeigen, wie ich nach Dokumenten suche?",
+                "Wie führe ich eine Dokumentensuche durch?",
+                "Kannst du mir den Prozess erklären, um nach Dokumenten in enaio zu suchen?",
+                "Wie finde ich eine spezifische Datei in enaio?"
+            ]
+        },
+        {
+            "intent": "geloeschte_dokumente_wiederherstellen",
+            "utterances": [
+                "Kann ich ein einmal gelöschtes Dokument wiederherstellen?",
+                "Welche Vorgehensweise empfehlen Sie zur Wiederherstellung gelöschter Dokumente?",
+                "Wie kann ich gelöschte Dokumente zurückgewinnen?",
+                "Was sind die Möglichkeiten zur Wiederherstellung von gelöschten Dateien?",
+                "Kann enaio Dokumente wiederherstellen",
+                "Dokumente wiederherstellen"
+            ]
+        },
+        {
+            "intent": "dokumente_mehre_register",
+            "utterances": [
+                "Ich möchte ein Dokument in mehreren Registern ablegen. Wie mache ich das?",
+                "Wie kann ich ein Dokument gleichzeitig in mehreren Vorgängen ablegen?",
+                "Ich muss Dokumente in verschiedenen Akten erstellen. Wie geht das?"
+            ]
+        },
+        {
+            "intent": "freigabe_von_dokumenten",
+            "utterances": [
+                "Ich möchte ein Dokument freigeben. Wie mache ich das?",
+                "Könntest du mir den Prozess zur Freigabe eines Dokuments erklären?",
+                "Wie kann ich ein Dokument für andere Benutzer zugänglich machen?"
+            ]
+        },
+        {
+            "intent": "bedeutung_aus_einchecken",
+            "utterances": [
+                "Kannst du mir erklären, was Einchecken bedeutet?",
+                "Ich verstehe nicht ganz, was Einchecken bedeutet. Kannst du es mir erklären?",
+                "Warum ist es so wichtig, Dokumente ein- und auszuchecken?"
+            ]
+        }
+    ]
+}
